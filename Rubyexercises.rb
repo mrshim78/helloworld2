@@ -36,3 +36,24 @@ puts myarray
 puts "6. Get rid of duplicates without specifically removing any one value. "
 
 puts myarray.uniq
+
+
+puts"What the major difference between an Array and a Hash?"
+
+puts "An array is an ordered list of things- 1,2,3,4
+
+A hash is a collection of key/value pairs: moti has a car, picard has a ship"
+
+puts " has in 1.8 vs 1.9"
+puts " 1.8 ==>h = {}; h[a] = 1"
+
+puts " 1.9 ==> h = {a:1}"
+
+h = {a:1, b:2, c:3, d:4}
+
+puts h['b'.to_sym]
+
+h[:e] = 2
+
+
+
